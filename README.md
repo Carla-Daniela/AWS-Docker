@@ -17,7 +17,7 @@ T3.Small  | AWS Linux | 16GiB (gp2)
 
 ## Descrição 
 
-- [ ] 1- Instalação e configuração do DOCKER ou CONTAINERD no host EC2, utilizar a instalação via script de start instance(user_data.sh);         
+- [x] 1- Instalação e configuração do DOCKER ou CONTAINERD no host EC2, utilizar a instalação via script de start instance(user_data.sh);         
 - [ ] 2- Efetuar Deploy de uma aplicação Wordpress com container de aplicação e container database Mysql;
 - [ ] 3- Configuração da utilização do serviço EFS AWS para estáticos do container de aplicação Wordpress;
 - [ ] 4- Configuração do serviço de Load Balancer AWS para aplicação Wordpress;
