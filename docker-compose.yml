@@ -1,0 +1,25 @@
+version: "3"
+services:
+  db:
+    image: mysql:8.0.19
+    command: mysqld --default_authentication_plugin=mysql_native_password
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: wordpress
+      MYSQL_PASSWORD: wordpress
+      MYSQL_ROOT_PASSWORD: DFf18cc++
+    volumes:
+      - ./bd-data:/var/lib/mysql
+  web-app:
+    image: wordpress:latest
+    ports:
+      - "8080:80"
+    volumes:
+      - ./app-data:/var/www/html/
+    links:
+      - db
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: wordpress
