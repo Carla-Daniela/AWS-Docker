@@ -1,6 +1,6 @@
 # AWS-Docker 
 
-<img src="https://img.shields.io/static/v1?label=Release&message=1.0&color=blue&style=for-the-badge"/>
+<img src="https://img.shields.io/static/v1?label=Release&message=2.1&color=blue&style=for-the-badge"/>
 
 ## Tecnologias Utilizadas
 <img style="width:70px; height:70px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" /> <img style="width:70px; height:70px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" /><img style="width:70px; height:70px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg" /> <img style="width:70px; height:70px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
