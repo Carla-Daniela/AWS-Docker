@@ -1,0 +1,3 @@
+#
+UUID=3443a7e4-b334-4ab5-a41f-6389879ce2fe     /           xfs    defaults,noatime  1   1
+UUID=3443a7e4-b334-4ab5-a41f-6389879ce2fe    /efs         xfs    defaults          0   0 

@@ -3,7 +3,7 @@ services:
   db:
     image: mysql:8.0.19
     volumes:
-      - ./db_data:/var/lib/mysql
+      - /efs/CarlaDaniela/db_data:/var/lib/mysql
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: DFf18cc++
@@ -22,4 +22,4 @@ services:
       WORDPRESS_DB_USER: wordpress
       WORDPRESS_DB_PASSWORD: wordpress
     volumes:
-      - ./db_data:/var/lib/wordpress
+      - /efs/CarlaDaniela/db_data:/var/lib/wordpress
