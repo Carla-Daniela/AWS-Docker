@@ -9,12 +9,6 @@
 
 ## Atividade pratica de docker 
 
- 
-### Configuração da Instância
-*Tipo de Instância* | *AMI* | *Armazenamento* 
----|---|---
-T3.Small  | AWS Linux | 16GiB (gp2)
-
 ## Descrição 
 
 - [x] 1- Instalação e configuração do DOCKER ou CONTAINERD no host EC2, utilizar a instalação via script de start instance(user_data.sh);         
@@ -22,3 +16,18 @@ T3.Small  | AWS Linux | 16GiB (gp2)
 - [x] 3- Configuração da utilização do serviço EFS AWS para estáticos do container de aplicação Wordpress;
 - [x] 4- Configuração do serviço de Load Balancer AWS para aplicação Wordpress;
           
+## Pontos adicionais
+* Não utilizar ip público para saída do serviços WP (Evitem publicar o serviço WP via IP Público);
+* Sugestão para o tráfego de internet sair pelo LB (Load Balancer Classic)pastas públicas e estáticos do wordpress; 
+* Sugestão de utilizar o EFS (Elastic File Sistem);
+* Fica a critério de cada integrante (ou dupla) usar Dockerfile ou Dockercompose;
+* Necessário demonstrar a aplicação wordpress funcionando (tela de login);
+* Aplicação Wordpress precisa estar rodando na porta 80 ou 8080;
+* Utilizar repositório git para versionamento;
+* Criar documentação;
+
+### Configuração da Instância
+*Tipo de Instância* | *AMI* | *Armazenamento* 
+---|---|---
+T3.Small  | AWS Linux | 16GiB (gp2)
+
